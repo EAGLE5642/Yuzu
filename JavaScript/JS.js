@@ -1,5 +1,5 @@
 function main(){
-	document.write("おかりなさい<br>");
+	document.write("おかえりなさい<br>");
 
 	document.bgColor="#ffc0cb";
 }
