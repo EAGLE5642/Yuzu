@@ -2,8 +2,6 @@
 function main(){
 	document.write("おかりなさい<br>");
 
-	document.write("ゆずさん！！".fontsize(6));
-
 	document.bgColor="#ffc0cb";
 }
 
