@@ -18,14 +18,10 @@ function tap_search(){
 	window.location.href="https://google.com/search?q="+word;
 }
 
-function tap_site(){
-	if(document.getElementById("site1")){
-		site=document.getElementById("site1").value;
+function tap_site1(){
+	site=document.getElementById("site1").value;
 
-		window.location.href="https://google.com/";
-	}else{
-
-	}
+	window.location.href="https://google.com/";
 }
 
 main();
