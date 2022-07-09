@@ -18,10 +18,29 @@ function tap_search(){
 	window.location.href="https://google.com/search?q="+word;
 }
 
-function tap_site1(){
-	site=document.getElementById("site1").value;
 
+//Google
+function tap_site1(){
 	window.location.href="https://google.com/";
+
+}
+
+
+//YouTube
+function tap_site2(){
+	window.location.href="https://youtube.com/";
+}
+
+
+//Yahoo!
+function tap_site3(){
+	window.location.href="https://yahoo.co.jp/";
+}
+
+
+//Amazon
+function tap_site4(){
+	window.location.href="https://amazon.co.jp/";
 }
 
 main();
