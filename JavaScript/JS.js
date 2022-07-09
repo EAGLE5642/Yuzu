@@ -23,6 +23,8 @@ function tap_site(){
 		site=document.getElementById("site1").value;
 
 		window.location.href="https://google.com/";
+	}else{
+
 	}
 }
 
