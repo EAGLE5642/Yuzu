@@ -1,0 +1,17 @@
+#button1{
+	display:inline-block;
+	padding:5px 10px;
+	border-radius:8px;
+	background-color:#f54260;
+	font-weight:bold;
+	color:white;
+	cursor:pointer;
+	user-select:none;
+	box-shadow:5px 5px 5px #bf0020;
+}
+
+#button1:active{
+	position:relative;
+	top:5px;
+	box-shadow:none;
+}

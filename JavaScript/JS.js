@@ -43,4 +43,16 @@ function tap_site4(){
 	window.location.href="https://amazon.co.jp/";
 }
 
+
+//Skype
+function tap_site5(){
+	window.location.href="skype:?chat";
+}
+
+
+//Coming Soon
+function tap_site6(){
+	alert("Coming Soon...");
+}
+
 main();
