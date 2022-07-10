@@ -2,6 +2,7 @@ function main(){
 	document.write("おかえりなさい<br>");
 
 	document.bgColor="#ffc0cb";
+
 }
 
 //スケジュール管理ソフト起動
@@ -54,5 +55,6 @@ function tap_site5(){
 function tap_site6(){
 	alert("Coming Soon...");
 }
+
 
 main();
