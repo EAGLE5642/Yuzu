@@ -5,6 +5,7 @@ var showDate = new Date(today.getFullYear(), today.getMonth(), 1);
 
 // 初期表示
 window.onload = function () {
+	document.bgColor="#ffc0cb";
     showProcess(today, calendar);
 };
 // 前の月表示
