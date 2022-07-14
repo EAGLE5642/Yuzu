@@ -2,12 +2,11 @@ function main(){
 	document.write("おかえりなさい<br>");
 
 	document.bgColor="#ffc0cb";
-
 }
 
 //スケジュール管理ソフト起動
 function tap_schedule(){
-	alert("スケジュール管理ボタンを押しました");
+	window.location.href="HTML/schedule.html";
 }
 
 //Google検索
