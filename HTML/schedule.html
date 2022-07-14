@@ -6,8 +6,18 @@
 		<script type="text/javascript" src="../JavaScript/schedule.js"></script>
 	</head>
 	<body>
-		<p>スケジュール管理ページが開かれました<br>
-		現在作成中のため何も表示されません<br>
-		</p>
+		<div class="wrapper">
+    	<!-- xxxx年xx月を表示 -->
+    	<h1 id="header"></h1>
+
+    	<!-- ボタンクリックで月移動 -->
+    	<div id="next-prev-button">
+     	   <button id="prev" onclick="prev()"><</button>
+				 <button id="next" onclick="next()">></button>
+    	</div>
+
+    	<!-- カレンダー -->
+    	<div id="calendar"></div>
+</div>
 	</body>
 </html>
