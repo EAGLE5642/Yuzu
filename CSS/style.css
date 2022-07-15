@@ -39,12 +39,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px #bf0020;
+	-webkit-appearance:none;
 }
 
 #button1:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
@@ -63,12 +65,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px #ff7f50;
+	-webkit-appearance:none;
 }
 
 #button2:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
@@ -81,12 +85,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px green;
+	-webkit-appearance:none;
 }
 
 #site1:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
@@ -100,12 +106,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px red;
+	-webkit-appearance:none;
 }
 
 #site2:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
@@ -119,12 +127,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px purple;
+	-webkit-appearance:none;
 }
 
 #site3:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
@@ -137,12 +147,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px orange;
+	-webkit-appearance:none;
 }
 
 #site4:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
@@ -156,12 +168,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px skyblue;
+	-webkit-appearance:none;
 }
 
 #site5:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
@@ -175,12 +189,14 @@
 	cursor:pointer;
 	user-select:none;
 	box-shadow:5px 5px 5px black;
+	-webkit-appearance:none;
 }
 
 #site6:active{
 	position:relative;
 	top:5px;
 	box-shadow:none;
+	-webkit-appearance:none;
 }
 
 
