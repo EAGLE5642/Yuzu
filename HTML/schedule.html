@@ -6,18 +6,18 @@
 		<script type="text/javascript" src="../JavaScript/schedule.js"></script>
 	</head>
 	<body>
-		<div class="wrapper">
-    	<!-- xxxx年xx月を表示 -->
-    	<h1 id="header"></h1>
+		<div class ="tab-panel">
+			<ul class="tab-group">
+				<li class="tab tab-A is-active">プライベート</li>
+				<li class="tab tab-B">仕事</li>
+				<li class="tab tab-C">登録</li>
+			</ul>
 
-    	<!-- ボタンクリックで月移動 -->
-    	<div id="next-prev-button">
-     	   <button id="prev" onclick="prev()"><</button>
-				 <button id="next" onclick="next()">></button>
-    	</div>
-
-    	<!-- カレンダー -->
-    	<div id="calendar"></div>
-</div>
+			<div class="panel-group">
+				<div class="panel tab-A is-show">プライベート内容</div>
+				<div class="panel tab-B">仕事内容</div>
+				<div class="panel tab-C">登録画面</div>
+			</div>
+		</div>
 	</body>
 </html>
