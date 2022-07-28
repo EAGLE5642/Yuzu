@@ -5,6 +5,13 @@ function main(){
 
 
 }
+
+//動的処理(端末ごとの処理)
+function sub(){
+	var user=window.navigator.userAgent;
+	document.write(user);
+}
+
 //スケジュール管理ソフト起動
 function tap_schedule(){
 	window.location.href="HTML/schedule.html";
@@ -58,3 +65,4 @@ function tap_site6(){
 
 
 main();
+sub();
