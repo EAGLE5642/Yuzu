@@ -2,8 +2,9 @@ function main(){
 	document.write("おかえりなさい<br>");
 
 	document.bgColor="#ffc0cb";
-}
 
+
+}
 //スケジュール管理ソフト起動
 function tap_schedule(){
 	window.location.href="HTML/schedule.html";
