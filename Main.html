@@ -4,19 +4,6 @@
 		<title>窓口</title>
 		<link rel="stylesheet" href="CSS/style.css">
 		<script type="text/javascript" src="JavaScript/JS.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/axios/dis/axios.min.js"></script>
-		<script>
-			async function getIpClient(){
-				try{
-					const response=await axios.get('https://api.ipify.org?format=json');
-					document.write(response);
-				}catch(error){
-				document.write(error);
-			}
-		}
-
-		getIpClient();
-		</script>
 	</head>
 	<body>
 
