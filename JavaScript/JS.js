@@ -2,15 +2,9 @@ function main(){
 	document.write("おかえりなさい<br>");
 
 	document.bgColor="#ffc0cb";
-
-
+	
 }
 
-//動的処理(端末ごとの処理)
-function sub(){
-	var user=window.navigator.userAgent;
-	document.write(user);
-}
 
 //スケジュール管理ソフト起動
 function tap_schedule(){
@@ -65,4 +59,3 @@ function tap_site6(){
 
 
 main();
-sub();
